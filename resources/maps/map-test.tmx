@@ -31,4 +31,54 @@
    <polygon points="0,0 128,-128 448,-128 576,0"/>
   </object>
  </objectgroup>
+ <objectgroup name="object" width="80" height="50">
+  <object x="416" y="1376">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="672" y="1120">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="192" y="192">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="2016" y="416">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="256" y="1152">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1760" y="704">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="2400" y="320">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1024" y="736">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="startplayer" width="80" height="50">
+  <object x="32" y="1376">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="startenemy" width="80" height="50">
+  <object x="704" y="576">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1728" y="384">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="2208" y="128">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1248" y="128">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="end" width="80" height="50">
+  <object x="2528" y="736">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
 </map>
