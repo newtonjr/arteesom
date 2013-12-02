@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset-platformer" tilewidth="32" tileheight="32">
+  <image source="../../../games/Arte&amp;Som/Arte&amp;Som/tileset-platformer-bw.png" width="192" height="544"/>
+ </tileset>
+ <layer name="player" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsOgDAQA9EtIAWfUAD3vyo+QhTMRkjzpKmzbhIBAAAAAAAAp11VdYw+JMmpLnWPPsRgUrOp0vlupkWtprbOdzOxl71f73X9Hy25tr7Z+9fYy172Rjx8+A7l
+  </data>
+ </layer>
+ <objectgroup name="interaction" width="60" height="30">
+  <object x="0" y="800">
+   <polygon points="0,0 864,0 864,160 0,160"/>
+  </object>
+  <object x="864" y="640">
+   <polygon points="0,0 640,0 640,320 0,320"/>
+  </object>
+  <object x="1824" y="640">
+   <polygon points="0,0 96,0 96,320 0,320"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="object" width="60" height="30">
+  <object x="448" y="768">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1184" y="576">
+   <polygon points="0,0 0,-32 32,-32 32,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="startplayer" width="60" height="30">
+  <object x="32" y="768">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1504" y="96">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object x="1888" y="0">
+   <polygon points="0,0 32,0 32,640 0,640"/>
+  </object>
+  <object x="1504" y="928">
+   <polygon points="0,0 320,0 320,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="startenemy" width="60" height="30">
+  <object x="576" y="288">
+   <polygon points="0,0 0,-32 32,-32 32,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="end" width="60" height="30">
+  <object x="224" y="96">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+</map>

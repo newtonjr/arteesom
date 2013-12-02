@@ -75,6 +75,9 @@
   <object x="1248" y="128">
    <polygon points="0,0 32,0 32,32 0,32"/>
   </object>
+  <object x="448" y="1120">
+   <polygon points="0,0 0,-32 32,-32 32,0"/>
+  </object>
  </objectgroup>
  <objectgroup name="end" width="80" height="50">
   <object x="2528" y="736">
